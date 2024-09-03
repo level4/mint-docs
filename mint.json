@@ -1,9 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Documentation",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/veratix-logo.png",
+    "light": "/logo/veratix-logo.png"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -32,20 +32,16 @@
     }
   ],
   "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
+
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/rgtnUxkb"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://veratix.com/blog"
     }
   ],
   "navigation": [
@@ -57,17 +53,7 @@
         "development"
       ]
     },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
+
     {
       "group": "API Documentation",
       "pages": [
@@ -77,15 +63,16 @@
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/payment/create-new-payment",
+
+        "api-reference/entitlements/list-inbound-entitlements",
+        "api-reference/entitlements/list-outbound-entitlements"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/_veratix",
+    "github": "https://github.com/veratix-labs",
+    "linkedin": "https://www.linkedin.com/company/veratix/"
   }
 }
